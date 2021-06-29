@@ -68,7 +68,7 @@ jobs:
             - "*"
   build_push_docker_image:
     docker:
-      - image: cimg/node:14.16.0
+      - image: cimg/node:14.16.0 
     steps:
       - checkout
       - setup_remote_docker
